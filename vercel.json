@@ -12,6 +12,7 @@
         "APP_DEBUG": "true",
         "APP_URL": "",
         "APP_KEY":"base64:+pNRrUjIJ25/uD8yG0EwgazONnyu8c3zxXjnqI3uCKg=",
+        "APP_API":"https://pokeapi.co/api/v2/",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",

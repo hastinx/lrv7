@@ -14,11 +14,11 @@
     <link href="{{ secure_asset('plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css') }}" type="text/css">
     <link href="{{ secure_asset('css/style.css') }}" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="{{ secure_asset('img/pokeball.png') }}" />
-    <script src="{{ secure_asset('plugins/jquery/jquery.js') }}"></script>
-    <script src="{{ secure_asset('plugins/jquery/jquery.min.js') }}"></script>
-    <script src="{{ secure_asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ secure_asset('plugins/select2/js/select2.full.min.js') }}"></script>
+    <link rel="shortcut icon" href="{{ asset('img/pokeball.png') }}" />
+    <script src="{{ asset('plugins/jquery/jquery.js') }}"></script>
+    <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('plugins/select2/js/select2.full.min.js') }}"></script>
 </head>
 <script>
     var api = "{{ config('app.api')}}";
@@ -69,7 +69,7 @@
         </div>
     </div>
 @include('pokemon.detail')
-<script src="{{ secure_asset('js/pokemon.js') }}"></script>
+<script src="{{ asset('js/pokemon.js') }}"></script>
 
 </body>
 

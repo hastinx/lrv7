@@ -6,16 +6,8 @@
     "routes": [{
         "src": "/(.*)",
         "dest": "/api/index.php"
-    },
-{
-      "source": "/assets/pokemon.js",
-      "headers": [
-        {
-          "key": "content-type",
-          "value": "application/javascript; charset=utf-8"
-        }
-      ]
-    }],
+    }
+    ],
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",

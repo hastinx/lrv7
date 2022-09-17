@@ -54,7 +54,7 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-    'asset_url' => env('ASSET_URL', 'https://hastin-pokedex.vercel.app/'),
+    'asset_url' => env('ASSET_URL', 'https://hastin-pokedex.vercel.app'),
 
     'api' => env('APP_API'),
 

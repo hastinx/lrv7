@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{{ secure_asset('assets/select2-bootstrap4.min.css') }}"  type="text/css">
     <link rel="stylesheet" href="{{ secure_asset('assets/style.css') }}" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="{{ secure_asset('assets/pokeball.png') }}" />
+    <link rel="shortcut icon" href="{{ secure_asset('assets/pokeball.png') }}" type="image/png"/>
     <script src="{{ secure_asset('assets/jquery.js') }}" type="application/javascript"></script>
     <script src="{{ secure_asset('assets/jquery.min.js') }}" type="application/javascript"></script>
     <script src="{{ secure_asset('assets/bootstrap.bundle.min.js') }}" type="application/javascript"></script>

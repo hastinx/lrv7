@@ -6,9 +6,8 @@
     "routes": [{
         "src": "/(.*)",
         "dest": "/api/index.php"
-    }],
-    "headers": [
-        {
+    },
+{
       "source": "/assets/pokemon.js",
       "headers": [
         {
@@ -16,8 +15,7 @@
           "value": "application/javascript; charset=utf-8"
         }
       ]
-    }
-  ],
+    }],
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",

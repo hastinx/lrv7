@@ -24,5 +24,18 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
+    },
+        
+  "headers": [
+        {
+      "source": "/assets/pokemon.js",
+      "headers": [
+        {
+          "key": "content-type",
+          "value": "application/javascript; charset=utf-8"
+        }
+      ]
     }
+  ]
+
 }

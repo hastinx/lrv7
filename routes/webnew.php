@@ -12,10 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::view('/offline',"offline.offline");
 Route::get('/', '\App\Http\Controllers\PokemonController@pokemonPage');
 Route::get('/pokemon/list','\App\Http\Controllers\PokemonController@getList');
